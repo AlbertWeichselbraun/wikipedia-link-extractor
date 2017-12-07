@@ -14,7 +14,9 @@ LINK_TEXT_BLACKLIST = ('thumb', )
 
 def clean_html(text):
     text = unescape(text)
-    while '<' in text and '>' in text:
+    count = 0
+    while '<' in text and '>' in text and count < 3:
+        count = count + 1
         text = RE_REMOVE_HTML_TAGS.sub('', text)
     return text
 
