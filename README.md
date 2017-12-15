@@ -3,5 +3,7 @@ Extracts Wikipedia link text and link targets from Wikipedia XML dumps downloade
 ### Usage
 
 ```bash
-python3 ./wikipedia-link-extractor.py >link-file.txt
+python3 ./wikipedia-link-extractor.py dbpedia-dump.bz2 link-file.csv.xz
+python3 ./get-unique-mappings.py link-file.csv.xz unique-links.n3.xz turtle
 ```
+
