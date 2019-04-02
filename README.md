@@ -20,10 +20,10 @@ The following datasets have been extracted with the method outlined above and ar
 
  1. Wikipedia link text to link mapping based on the 
     - wikipedia dump from 2017-12-01: 
-    - wikimedia dump from 2019-03-20: 
+    - [wikimedia dump from 2019-03-20](https://drive.switch.ch/index.php/s/5Udixs8VzsrHaId)
  2. An RDF file containing unique link text to link mappings (i.e. mappings that are only used to refer to a single DBpedia resource):
     - wikipedia dump from 2017-12-01:
-    - [wikimedia dump from 2019-03-20](https://github.com/AlbertWeichselbraun/wikipedia-link-extractor/blob/master/name-variance-datasets/enwiki-20190320/unqiue-wikipedia-links-20190320.n3.xz)
+    - [wikimedia dump from 2019-03-20](https://drive.switch.ch/index.php/s/yUz45Mz6xHchCds)
     
     The files use `skos:altLabel` to link between the DBpedia resource and the unique link text.
 
