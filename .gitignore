@@ -11,4 +11,4 @@ benchmarking/
 .project
 .pydevproject
 .settings/
-*.xz
+*.bz2
