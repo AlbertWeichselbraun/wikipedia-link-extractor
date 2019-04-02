@@ -18,11 +18,11 @@ python3 ./get-unique-mappings.py link-file.csv.xz unique-links.n3.xz turtle
 
 The following datasets have been extracted with the method outlined above and are available for download.
 
- 1. Wikipedia link text to link mapping based on the 
+ 1. Wikipedia link text to link mapping (CSV) based on the 
     - [wikipedia dump from 2017-12-01](https://drive.switch.ch/index.php/s/IbKC5JPhmSbDc0a)
     - [wikimedia dump from 2019-03-20](https://drive.switch.ch/index.php/s/5Udixs8VzsrHaId)
  2. An RDF file containing unique link text to link mappings (i.e. mappings that are only used to refer to a single DBpedia resource):
-    - wikipedia dump from 2017-12-01:
+    - [wikipedia dump from 2017-12-01](https://drive.switch.ch/index.php/s/qBWWuGCpoFT8lyz)
     - [wikimedia dump from 2019-03-20](https://drive.switch.ch/index.php/s/yUz45Mz6xHchCds)
     
     The files use `skos:altLabel` to link between the DBpedia resource and the unique link text.
