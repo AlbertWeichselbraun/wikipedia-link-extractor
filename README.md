@@ -23,10 +23,11 @@ The following datasets have been extracted with the method outlined above and ar
     - wikimedia dump from 2019-03-20: 
  2. An RDF file containing unique link text to link mappings (i.e. mappings that are only used to refer to a single DBpedia resource):
     - wikipedia dump from 2017-12-01:
-    - wikimedia dump from 2019-03-20:
+    - wikimedia dump from 2019-03-20: https://github.com/AlbertWeichselbraun/wikipedia-link-extractor/blob/master/name-variance-datasets/enwiki-20190320/unqiue-wikipedia-links-20190320.n3.xz
+    
     The files use `skos:altLabel` to link between the DBpedia resource and the unique link text.
 
-    ** Example data **
+    **Example data**
     ```turtle
     @prefix skos:<http://www.w3.org/2004/02/skos/core#>
     @prefix dbr:<http://dbpedia.org/resource/>
