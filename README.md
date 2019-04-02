@@ -1,6 +1,6 @@
 Extracts Wikipedia link text and link targets from Wikipedia XML dumps downloaded from the [wikimedia](https://meta.wikimedia.org/wiki/Data_dumps).
 
-These data can then be used to improve named entity linking tasks as outlined in the paper *Weichselbraun, Albert, Kuntschik, Philipp and Brasoveanu, Adrian M.P.. (2019). Name Variants for Improving Entity Discovery and Linking., Leipzig, Germany.*.
+These data can then be used to improve named entity linking tasks as outlined in the paper *Weichselbraun, Albert, Kuntschik, Philipp and Brasoveanu, Adrian M.P.. (2019). Name Variants for Improving Entity Discovery and Linking. Proceedings of the 2nd Conference on Language, Data and Knowledge (LDK 2019), Leipzig, Germany.*.
 
 ### Usage
 
@@ -19,7 +19,7 @@ python3 ./get-unique-mappings.py link-file.csv.xz unique-links.n3.xz turtle
 The following datasets have been extracted with the method outlined above and are available for download.
 
  1. Wikipedia link text to link mapping based on the 
-    - wikipedia dump from 2017-12-01: 
+    - [wikipedia dump from 2017-12-01](https://drive.switch.ch/index.php/s/IbKC5JPhmSbDc0a)
     - [wikimedia dump from 2019-03-20](https://drive.switch.ch/index.php/s/5Udixs8VzsrHaId)
  2. An RDF file containing unique link text to link mappings (i.e. mappings that are only used to refer to a single DBpedia resource):
     - wikipedia dump from 2017-12-01:
