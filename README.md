@@ -36,7 +36,7 @@ dbr:Christian_anarchism   skos:altLabel   "religious anarchism"
 ```
 ### Usage
 
-Generate a CSV file that contains a mapping from Wikipedia link text to the corresponding link targets.
+Generate a TSV file that contains a mapping from Wikipedia link text to the corresponding link targets.
 ```bash
 python3 ./wikipedia-link-extractor.py enwiki-20190320-pages-articles.xml.bz2 link-file.csv.xz
 ```
